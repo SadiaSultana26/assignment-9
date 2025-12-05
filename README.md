@@ -1,16 +1,67 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ToyTopia -- A Local Kids Toy Store Platform
 
-## React Compiler
+ToyTopia is a user-friendly web platform designed to showcase, browse,
+and manage children's toys. The project includes toy listings,
+categories, search functionality, user authentication, and a smooth UI
+for an enhanced shopping experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Purpose of the Project
+
+The goal of ToyTopia is to create a modern, responsive, and interactive
+platform where users can explore different toys, view details, manage
+accounts, and enjoy a seamless browsing experience.
+
+## ⭐ Key Features
+
+### 🔹 User Features
+
+-   Browse all toys with images, categories, prices, and ratings\
+-   View detailed information about each toy\
+-   Live search functionality\
+-   Category-based toy browsing\
+-   Responsive design
+
+### 🔹 Authentication
+
+-   Email/Password Login\
+-   Google Sign-In\
+-   Private Routes\
+-   Profile Update
+
+
+
+### 🔹 UI/UX Enhancements
+
+-   Recharts\
+-   Loading Spinners\
+-   SweetAlert Popups\
+-   Error Handling\
+-   404 Page
+
+## 📦 NPM Packages Used
+
+-   react
+-   react-dom
+-   react-router-dom
+-   firebase
+-   axios
+-   react-icons
+-   sweetalert2
+-   lottie-react
+-   react-hook-form
+-   recharts
+-   tailwindcss
+-   daisyui
+
+## ⚙️ Technologies Used
+
+-   React, JavaScript\
+-   TailwindCSS, DaisyUI\
+-   Firebase Authentication & Database\
+-   Recharts\
+-   Hosting: Firebase / Netlify / Vercel
