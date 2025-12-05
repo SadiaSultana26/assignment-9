@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import pubgImg from "../assets/pubg.jpg"
-import callImg from "../assets/calling.jpg"
-import freeFire from "../assets/freefire.jpg"
+import pubgImg from "../assets/toy-1.jpg"
+import callImg from "../assets/toy-2.jpg"
+import freeFire from "../assets/toy-3.jpg"
 import MyContainer from "../Components/Layout/MyContainer";
 import { games } from "../data/games";
 
