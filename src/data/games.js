@@ -1,18 +1,19 @@
 // src/data/games.js
-import pubgImg from "../assets/pubg.jpg";
-import callImg from "../assets/calling.jpg";
-import freeFire from "../assets/freefire.jpg";
+import pubgImg from "../assets/toy-1.jpg";
+import callImg from "../assets/toy-2.jpg";
+import freeFire from "../assets/toy-3.jpg";
 
 
 export const games = [
   {
     id: "1",
-    title: "Player Unknowns Battle Ground: PUBG",
+    title: "A Cartoon-style Scooter: Moped Toy",
+    prize:"17$",
     coverPhoto: pubgImg,
-    category: "FPS",
+    category: "",
     downloadLink: "https://www.pubgmobile.com/en-US/home.shtml",
     description:
-      "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+      "A sturdy and lightweight mini bike designed for kids, featuring easy balance, smooth wheels, and a fun sporty look.",
     ratings: "4.7",
     developer: "Krafton",
     img: pubgImg
@@ -20,11 +21,12 @@ export const games = [
   {
     id: "2",
     title: "Call of Duty: Mobile",
+    prize:"17$",
     coverPhoto: callImg,
     category: "FPS",
     downloadLink: "https://www.callofduty.com/mobile",
     description:
-      "Call of Duty Mobile delivers intense multiplayer modes, battle royale action, and iconic maps from the COD franchise.",
+      "A cute and charming doll with soft hair and detailed features, perfect for imaginative play and gentle cuddles.",
     ratings: "4.5",
     developer: "Activision",
     img: callImg
@@ -32,11 +34,12 @@ export const games = [
   {
     id: "3",
     title: "Free Fire: Battlegrounds",
+    prize:"17$",
     coverPhoto: freeFire,
     category: "Battle Royale",
     downloadLink: "https://ff.garena.com/en/",
     description:
-      "Free Fire is a survival shooter game offering quick 10-minute battles, unique characters, and fast-paced gameplay.",
+      "This adorable teddy bear features a gentle smile and fluffy fur, making it a lovable gift for kids.",
     ratings: "4.3",
     developer: "Garena",
     img: freeFire
