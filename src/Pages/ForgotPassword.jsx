@@ -16,7 +16,7 @@ const ForgotPassword = () => {
   };
 
   useEffect(() => {
-    document.title = "Forgot Password | Game Kingdom";
+    document.title = "Forgot Password | ToyTopia";
     }, []);
 
   return (

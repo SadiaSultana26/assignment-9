@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const NotFound = () => {
   useEffect(() => {
-    document.title = "404 Not Found | Game Kingdom"; 
+    document.title = "404 Not Found | ToyTopia"; 
   }, []);
 
   return (

@@ -35,7 +35,7 @@ export default function Home() {
   const prevSlide = () => setIndex((prev) => (prev - 1 + slides.length) % slides.length);
 
  useEffect(() => {
-  document.title = "Home | Game Kingdom";
+  document.title = "Home | ToyTopia";
    }, []);
 
 

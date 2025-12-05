@@ -38,7 +38,7 @@ const Login = () => {
 };
 
 useEffect(() => {
-  document.title = "Login | Game Kingdom";
+  document.title = "Login | ToyTopia";
 }, []);
 
 

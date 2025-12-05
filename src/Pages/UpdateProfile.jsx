@@ -34,7 +34,7 @@ const UpdateProfile = () => {
   };
      
     useEffect(() => {
-      document.title = "Update Profile | Game Kingdom";
+      document.title = "Update Profile | ToyTopia";
       }, []);
 
   return (

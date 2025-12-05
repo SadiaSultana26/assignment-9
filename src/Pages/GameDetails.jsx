@@ -17,7 +17,7 @@ export default function GameDetails() {
   }
 
   useEffect(() => {
-  document.title = "Game Details | Game Kingdom";
+  document.title = "Game Details | ToyTopia";
   }, []);
 
 

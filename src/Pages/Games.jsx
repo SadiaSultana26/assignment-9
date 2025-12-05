@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Games = () => {
   useEffect(() => {
-    document.title = "Games | Game Kingdom"; 
+    document.title = "Games | ToyTopia"; 
   }, []);
 
   return (

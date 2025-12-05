@@ -7,7 +7,7 @@ const MyProfile = () => {
   const { user } = useAuth();
   const navigate = useNavigate();
   useEffect(() => {
-  document.title = "Profile | Game Kingdom";
+  document.title = "Profile | ToyTopia";
 }, []);
 
 

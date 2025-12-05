@@ -52,7 +52,7 @@ const Registration = () => {
   };
 
   useEffect(() => {
-  document.title = "Registration | Game Kingdom";
+  document.title = "Registration | ToyTopia";
 }, []);
 
 
