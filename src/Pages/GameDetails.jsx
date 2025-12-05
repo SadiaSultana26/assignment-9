@@ -10,7 +10,7 @@ export default function GameDetails() {
   if (!game) {
     return (
       <div className="p-10 text-center">
-        <h2 className="text-2xl font-bold">Game not found!</h2>
+        <h2 className="text-2xl font-bold">Toy not found!</h2>
         <Link to="/" className="text-purple-400 mt-4 inline-block">Go back Home</Link>
       </div>
     );
@@ -34,17 +34,17 @@ export default function GameDetails() {
           <h1 className="text-3xl font-bold">{game.title}</h1>
           <p className="text-gray-700">{game.description}</p>
 
-          <p className="font-semibold">Category: {game.category}</p>
-          <p className="font-semibold">Developer: {game.developer}</p>
+          <p className="font-semibold">Prize: {game.prize}</p>
+          <p className="font-semibold">AvailAbleQuantity: {game.developer}</p>
           <p className="font-semibold">Rating: ⭐ {game.ratings}</p>
 
           <a
-            href={game.downloadLink}
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block bg-purple-600 text-white px-6 py-3 rounded-xl hover:bg-purple-700 transition"
           >
-            Download
+            view more
           </a>
         </div>
       </div>

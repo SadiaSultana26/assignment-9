@@ -15,7 +15,7 @@ export const games = [
     description:
       "A sturdy and lightweight mini bike designed for kids, featuring easy balance, smooth wheels, and a fun sporty look.",
     ratings: "4.7",
-    developer: "Krafton",
+    developer: "21",
     img: pubgImg
   },
   {
@@ -28,7 +28,7 @@ export const games = [
     description:
       "A cute and charming doll with soft hair and detailed features, perfect for imaginative play and gentle cuddles.",
     ratings: "4.5",
-    developer: "Activision",
+    developer: "13",
     img: callImg
   },
   {
@@ -41,7 +41,7 @@ export const games = [
     description:
       "This adorable teddy bear features a gentle smile and fluffy fur, making it a lovable gift for kids.",
     ratings: "4.3",
-    developer: "Garena",
+    developer: "32",
     img: freeFire
   }
 ];
