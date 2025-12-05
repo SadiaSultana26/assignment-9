@@ -20,7 +20,7 @@ export const games = [
   },
   {
     id: "2",
-    title: "Call of Duty: Mobile",
+    title: "Mini Orange-Haired Doll:Little Pony",
     prize:"17$",
     coverPhoto: callImg,
     category: "FPS",
@@ -33,7 +33,7 @@ export const games = [
   },
   {
     id: "3",
-    title: "Free Fire: Battlegrounds",
+    title: "Soft Toy:White Bear",
     prize:"17$",
     coverPhoto: freeFire,
     category: "Battle Royale",

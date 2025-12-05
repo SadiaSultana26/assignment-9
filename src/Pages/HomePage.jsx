@@ -12,17 +12,17 @@ const slides = [
   {
     id: "1",
     img: pubgImg ,
-    title: "Player Unknowns Battle Ground (PUBG)"
+    title: "A Cartoon-style Scooter: Moped Toy"
   },
   {
     id: "2",
     img: callImg,
-    title: "Call of Duty: Mobile"
+    title: "Mini Orange-Haired Doll:Little Pony"
   },
   {
     id: "3",
     img: freeFire,
-    title: "Free Fire Battleground"
+    title: "Soft Toy:White Bear"
   }
 ];
 
@@ -97,7 +97,7 @@ export default function Home() {
       <div className="bg-purple-600 text-white py-16 px-6 rounded-2xl shadow-xl">
         <h2 className="text-3xl font-bold mb-3">Join Our Newsletter</h2>
         <p className="mb-6 text-white/90 max-w-[600px]">
-          Subscribe to receive updates on new games, exclusive offers, and exciting events.
+          Subscribe to receive updates on new toys, exclusive offers, and exciting events.
         </p>
 
         <form className="flex flex-col md:flex-row gap-4 max-w-[600px]">
