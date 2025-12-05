@@ -20,7 +20,7 @@ const MyProfile = () => {
 
         
         <img
-          src={user?.photoURL || "https://i.ibb.co.com/wZYyVF2g/call-of-duty.jpg"}
+          src={user?.photoURL || "https://media.istockphoto.com/id/892959344/photo/cute-adorable-baby-child-with-warm-white-and-pink-hat-with-cute-bobbles.webp?a=1&b=1&s=612x612&w=0&k=20&c=IpnUEb9fATjFzvrLbKGRrxjrjAs71UVZ_pvkZbi2kE8="}
           className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-white object-cover"
           alt="Profile"
         />
