@@ -9,9 +9,9 @@ export default function Footer() {
 
           
           <div>
-            <h3 className="text-xl font-bold mb-4">Game Kingdom</h3>
+            <h3 className="text-xl font-bold mb-4">ToyTopia</h3>
             <p className="text-gray-400">
-              Your go-to place for discovering popular games, latest updates, and exclusive content. Join our newsletter to never miss out!
+              Your go-to place for discovering popular toys, latest updates, and exclusive content. Join our newsletter to never miss out!
             </p>
           </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-gray-800 pt-6 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} Game Kingdom. All rights reserved.
+          © {new Date().getFullYear()} ToyTopia. All rights reserved.
         </div>
       </div>
     </footer>
